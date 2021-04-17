@@ -81,23 +81,30 @@ body {
             font-size: 1.7em;
         }
     }
-    .main__sect4 {        
-        .main__sect4--t {            
+    
+    #valuesect {
+        text-align: center;
+        .value--t {
             font-size: 3em;
         }
-        .main__sect4--p {        
+        .value--p {
             word-spacing: 4px;
             font-size: 1.7em;
         }
-        .column {
-            margin-top: 2rem;             
-            display: flex;                
-            .card {        
-                background: none;
-                width: 5%; 
+        .value {
+            display: flex;
+            .card {                
+                margin: auto;
+                padding: 25px;
+                background: whitesmoke;
                 border: none;
-                width: 30%;
-                height: 30%;
+                border-radius: 15px;
+                width: auto;
+                height: auto;
+                img {
+                    width: 100%;
+                    height: auto;
+                }
             }
         }
     }
@@ -123,4 +130,3 @@ body {
 
     }
 }
-
