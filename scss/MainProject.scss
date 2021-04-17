@@ -82,9 +82,7 @@ body {
         }
     }
     .main__sect4 {
-        margin-top: 3rem;
-        margin-bottom: 3rem;
-        align-content: space-around;
+        align-content:space-between;
         text-align: center;
         .main__sect4--t {            
             font-size: 3em;
@@ -104,6 +102,8 @@ body {
                 margin-right: auto;
                 width: 18rem;                                 
                 border: none;
+                width: 30%;
+                height: 30%;
             }
         }
     }
