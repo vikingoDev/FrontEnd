@@ -81,26 +81,20 @@ body {
             font-size: 1.7em;
         }
     }
-    .main__sect4 {
-        align-content:space-between;
-        text-align: center;
+    .main__sect4 {        
         .main__sect4--t {            
             font-size: 3em;
         }
         .main__sect4--p {        
             word-spacing: 4px;
             font-size: 1.7em;
-            margin-left: 10rem;
-            margin-right: 10rem;
         }
         .column {
             margin-top: 2rem;             
             display: flex;                
             .card {        
                 background: none;
-                margin-left: auto;
-                margin-right: auto;
-                width: 18rem;                                 
+                width: 5%; 
                 border: none;
                 width: 30%;
                 height: 30%;
