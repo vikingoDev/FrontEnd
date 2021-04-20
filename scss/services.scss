@@ -20,6 +20,25 @@ body {
             }
         }
     }
+    /*****Contenido*****/
+    #serv_cont {
+        text-align: center;
+        margin-top: 1.5rem; 
+        #serv_tit {                  
+            font-size: 3rem;                    
+        }
+        #inst_tit-p {
+        font-style: italic;            
+        font-weight: bold;
+        font-size: 2em;
+        }
+    }
+    .card-img-top {
+        width: 100%;
+        height: 15vw;
+        object-fit: cover;
+    }
+    /*****Footer*****/
     .main__footer {
         background-image: repeating-linear-gradient(to left, #30cfd0 0%, #330867 100%);
         position:relative;
