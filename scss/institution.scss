@@ -22,20 +22,40 @@ body {
         }
     }
     /*****Contenido*****/
-    .institution--tit {
-        font-size: 3em;
+    #inst_cont {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        margin-top: 1.5rem;
+        #inst_tit {            
+            font-size: 3em;            
+            font-weight: bold;
+        }
+        #inst_tit-p {
+            font-style: italic;            
+            font-weight: bold;
+            font-size: 2em;
+        }
+        .row_1, .row_2 {
+            display: flex;                  
+            padding: 5px;
+            margin-bottom: 40px;        
+            .row_1-img {
+                padding-left: 15%;
+                margin: auto;                
+            }
+            .row_1-p, .row_2-p {
+                padding: auto;
+                margin: auto;
+                max-width: 80%;
+                font-size: 1.2rem;
+            }                  
+            .row_2-img {
+                padding-right: 15%;
+                margin: auto;
+            }
+        }
     }
-    .row_1 {
-        display: flex;        
-        flex: 50%;
-        padding: 5px;        
-    }
-    .row_2 {
-        display: flex;
-        flex: 50%;
-        padding: 5px;
-    }
-
     /*****Footer*****/
     .main__footer {
         background-image: repeating-linear-gradient(to left, #30cfd0 0%, #330867 100%);
