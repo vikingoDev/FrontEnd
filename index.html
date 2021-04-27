@@ -1,12 +1,14 @@
 <!doctype html>
 
-<head>  
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="RNGit es una institución de capacitación en tecnología e informática, ampliamente reconocida a nivel internacional. Acceda a nuestros cursos y tutoriales.">
-  <meta name="keywords" content="RNGit tecnología programación desarrollo PHP Javascript Python Ruby institución PMP profesional">
+  <meta name="description"
+    content="RNGit es una institución de capacitación en tecnología e informática, ampliamente reconocida a nivel internacional. Acceda a nuestros cursos y tutoriales.">
+  <meta name="keywords"
+    content="RNGit tecnología programación desarrollo PHP Javascript Python Ruby institución PMP profesional">
   <title>RNGit. La mejor institución tecnológica nacional.</title>
-  <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <!----BOOTSTRAP CSS--->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
@@ -15,44 +17,9 @@
 </head>
 
 <body>
-  <!--<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
-    </div>
-  </nav>-->
   <!--Header (?)--->
   <header class="main__header">
-    <nav class="navbar navbar-expand-sm navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
         <div id="logContainer"><img src="img\logomain.jpg" alt="logoPrincipal" id="logoPrincipal"></div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -74,9 +41,8 @@
   <!--Carrousel (?)-->
   <section id="Home" class="main__sect1">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-      <strong class="main__sect1-t">Estás en RNGit</strong>
-      <p class="main__sect1-p">Tenemos código.</p>
-      <br>
+      <!--<strong class="main__sect1-t">Estás en RNGit</strong>
+      <p class="main__sect1-p">Tenemos código.</p>-->
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
           aria-current="true" aria-label="Slide 1"></button>
@@ -87,37 +53,27 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="carousel_inner-img" src="img/Carrousel/tech1-1024x576.jpg" class="d-block w-100" alt="...">
+          <img class="carousel_inner-img" src="img/Carrousel/tech1-1024x576.jpg" class="d-block" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h2>La mejor formación a tu alcance</h2>
             <p>Te brindamos la mejor formación en las tecnologías líderes en el mercado.</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img class="carousel_inner-img" src="img/Carrousel/tech2-1024x576.jpg" class="d-block w-100" alt="...">
+          <img class="carousel_inner-img" src="img/Carrousel/tech2-1024x576.jpg" class="d-block" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h2>Personal capacitado y eficiente</h2>
-            <p>Incorporamos a nuestro equipo los mejores talentos, para brindarte el mejor servicio.</p>
+            <h2>El mejor equipo profesional</h2>
+            <p>Incorporamos a nuestra institución los mejores talentos, para brindarte el mejor servicio.</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img class="carousel_inner-img" src="img/Carrousel/tech3-1024x576.jpg" class="d-block w-100" alt="...">
+          <img class="carousel_inner-img" src="img/Carrousel/tech3-1024x576.jpg" class="d-block" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h2>Satisfacción garantizada y respaldada</h2>
             <p>Ponemos foco en brindar la mejor calidad y atención a nuestros estudiantes.</p>
           </div>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
   </section>
   <!--Footer (?)--->
@@ -130,19 +86,19 @@
     </section>
   </footer>
   <div>
-  <!------SCRIPTS----->
-  <!-- jQuery , Popper.js, Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
-    integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
-    integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
-    crossorigin="anonymous"></script>
-  <!-----CARROUSEL----->
-  <script>
-    $('.carousel').carousel();
-  </script>
-  <!-----SCRIPTS ENDS----->
+    <!------SCRIPTS----->
+    <!-- jQuery , Popper.js, Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
+      integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+      integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
+      crossorigin="anonymous"></script>
+    <!-----CARROUSEL----->
+    <script>
+      $('.carousel').carousel();
+    </script>
+    <!-----SCRIPTS ENDS----->
   </div>
 </body>
 
