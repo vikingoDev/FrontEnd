@@ -34,25 +34,20 @@ body {
             font-style: italic;            
             font-weight: bold;
             font-size: 2em;
+            margin-bottom: 4%;
         }
         .row_1, .row_2 {
-            display: flex;                  
-            padding: 5px;
-            margin-bottom: 40px;        
-            .row_1-img {
-                padding-left: 15%;
+            display: flex;                          
+            margin-bottom: 8%;        
+            .row_1-img, .row_2-img{                
                 margin: auto;                
             }
             .row_1-p, .row_2-p {
                 padding: auto;
                 margin: auto;
-                max-width: 80%;
-                font-size: 1.2rem;
+                max-width: 50%;
+                font-size: 1.3rem;
             }                  
-            .row_2-img {
-                padding-right: 15%;
-                margin: auto;
-            }
         }
     }
     /*****Footer*****/

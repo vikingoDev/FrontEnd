@@ -1,6 +1,7 @@
 body {
     background-image: repeating-linear-gradient(to right, #accbee 0%, #e7f0fd 100%);
     color: midnightblue;
+    /*****Header*****/
     .main__header {        
         background-image: repeating-linear-gradient(to left, #30cfd0 0%, #330867 100%);
         .navbar {
@@ -19,6 +20,7 @@ body {
             }
         }
     }
+    /*****Contenido*****/
     #valuesect {        
         text-align: center;
         margin-top: 1.5rem;
@@ -30,6 +32,7 @@ body {
             font-style: italic;            
             font-weight: bold;
             font-size: 2em;
+            margin-bottom: 4%
         }
         .value {
             display: flex;

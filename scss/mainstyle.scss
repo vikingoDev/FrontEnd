@@ -19,16 +19,8 @@ body {
             }
         }
     }
-    .main__sect1 {
-        text-align: center;        
-        .main__sect1-t {
-            font-size: 3em;
-        }
-        .main__sect1-p {
-            font-style: italic;            
-            font-weight: bold;
-            font-size: 2em;
-        }
+    .main__sect1 { 
+        text-align:center;        
         .carousel_inner-img {
             margin-top: 0px;         
             display: block;
@@ -38,9 +30,10 @@ body {
             opacity: 0.8;
         }
         .carousel-caption {
-            width:300px;            
+            width:350px;            
             z-index:10;
             color:#fff;
+            text-shadow: 2px 3px 20px black;
             text-align:center;                        
             top:50%;
             right:65%;
@@ -48,6 +41,13 @@ body {
             /**-webkit-transform:translate(0, -50%);
             -ms-transform:translate(0, -50%);**/
             transform:translate(0, -50%);
+            .main__sect1-t {
+                font-size: 3em;
+                font-style: italic;            
+                font-weight: bold;
+                font-size: 2em;
+                text-align:center;
+            }           
         }        
     }
     .main__sect2 {
