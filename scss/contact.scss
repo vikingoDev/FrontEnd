@@ -21,18 +21,20 @@ body {
         }
     }
     /*****Contenido*****/
-    .contGen {             
-        text-align: center;
+    .contGen {                     
         margin-top: 1.5rem;
-        #cont_tit {
-            font-size: 3em; 
-            font-weight: bold;           
-        }
-        #cont_tit-p {
-            font-style: italic;            
-            font-weight: bold;
-            font-size: 2em;
-            margin-bottom: 4%
+        #cont_txt {
+            text-align: center;
+            #cont_tit {
+                font-size: 3em; 
+                font-weight: bold;                           
+            }
+            #cont_tit-p {
+                font-style: italic;            
+                font-weight: bold;
+                font-size: 2em;
+                margin-bottom: 4%;                        
+            }
         }
         .conTable {
             flex: 60%;
@@ -50,7 +52,8 @@ body {
             margin-top: 20px;
             margin-bottom: 16px;
             resize:both;
-            }
+            display:block;
+        }
             #submit {
             background-color: #4CAF50;
             color: white;
