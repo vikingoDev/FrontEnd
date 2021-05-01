@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <!--Header (?)-->
+  <!--Header-->
   <header class="main__header">
     <nav class="navbar navbar-expand-sm navbar-light">
       <div class="container-fluid">
@@ -36,102 +36,114 @@
   </header>
   <!--Contenido-->
   <section class="contGen">
+    <!--Títulos-->
     <div id="cont_txt">
       <strong id="cont_tit">Canales de contacto</strong>
       <p id="cont_tit-p">Envianos tus dudas o consultas!</p>
-    </div>  
-    
-    
-
-        <!--Locaciones-->
-        <div class="row">          
-          <div class="col-md-8" >            
-              <div class="row">
-                <div class="col">
-                  País / Provincia
-                </div>
-                <div class="col">
-                  Ciudad
-                </div>
+    </div>
+    <!--Contenedor de grilla-->
+    <div class="grid-container">
+      <!--Locaciones-->
+      <div class="location_table">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col">
+                País / Provincia
               </div>
-              <div class="row">
-                <div class="col">
-                  1 of 2
-                </div>
-                <div class="col">
-                  2 of 2
-                </div>
+              <div class="col">
+                Ciudad
               </div>
-              <div class="row">
-                <div class="col">
-                  1 of 2
-                </div>
-                <div class="col">
-                  2 of 2
-                </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                1 of 2
               </div>
-              <div class="row">
-                <div class="col">
-                  1 of 2
-                </div>
-                <div class="col">
-                  2 of 2
-                </div>
+              <div class="col">
+                2 of 2
               </div>
-              <div class="row">
-                <div class="col">
-                  1 of 2
-                </div>
-                <div class="col">
-                  2 of 2
-                </div>        
-          </div>                    
+            </div>
+            <div class="row">
+              <div class="col">
+                1 of 2
+              </div>
+              <div class="col">
+                2 of 2
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                1 of 2
+              </div>
+              <div class="col">
+                2 of 2
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                1 of 2
+              </div>
+              <div class="col">
+                2 of 2
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-xs-12 col-sm-10 col-md-4">
-      <!--Formulario de contacto (?)-->
-        <div class="contForm">
-          <div class="container" >
-            <form>
-              <!--Email-->
-              <label for="email">Correo electrónico</label>
-              <input type="text" class="form-control" placeholder="Ingrese su dirección de correo electrónico">
-              <!--Nombre-->
-              <div class="row">
-                <div class="col">
-                  <label for="name">Nombre</label>
-                  <input type="text" class="form-control" placeholder="Ingrese su nombre">
-                </div>
+      <!--Formulario de contacto-->
+      <div class="contform">
+        <div id="container">
+          <form>
+            <!--Nombre-->
+            <div class="row">
+              <div class="col-md-6 col-sm-12 col-xs-3">
+                <label for="name">Datos personales</label>
+                <input type="text" class="form-control" placeholder="Ingrese nombre y apellido">
+              </div>            
+            <!--Teléfono-->            
+              <div class="col-md-6 col-sm-12 col-xs-3">
+                <label for="name">Teléfono</label>
+                <input type="text" class="form-control" placeholder="Ingrese un número de contacto">
               </div>
-              <!--País-->
-              <label for="country">Country</label>
-              <select>
-                <option>Elija una opción</option>
-                <option>Argentina</option>
-                <option>Uruguay</option>
-                <option>Chile</option>
-              </select>
-              <!--Medio de contacto-->
+            </div>
+            <div class="row">
+              <div class="col-md-6 col-sm-12 col-xs-3">
+            <!--Email-->
+              <label for="email">E-mail</label>
+              <input type="text" class="form-control" placeholder="Ingrese su e-mail">
+              </div>
+              <div class="col-md-6 col-sm-12 col-xs-3">
+            <!--Medio de contacto-->
               <label for="channels">Medio de contacto</label>
               <select>
-                <option>Elija una opción</option>
-                <option>Email</option>
+                <option>Seleccione</option>
+                <option>E-mail</option>
                 <option>Wapp</option>
                 <option>Zoom/Meet/Otros</option>
                 <option>No deseo que me contacten</option>
               </select>
-              <!--Subject-->
-              <label for="subject">Subject</label>
-              <textarea id="subject" name="subject" placeholder="Escriba algo. No me haga repetirlo." style="height:200px"></textarea>
-              <input id="submit" type="submit" value="Enviar">
-              <input id="reset" type="reset" value="Borrar todo">
-            </form>
-          </div>
-          </div>
+              </div>
+            </div>
+            <!--País-->
+            <label for="country">País</label>            
+            <select>
+              <option>Seleccione</option>
+              <option>Argentina</option>
+              <option>Uruguay</option>
+              <option>Chile</option>
+            </select>                        
+            <!--Subject-->
+            <label for="subject">Comentarios</label>
+            <textarea id="subject" name="subject" placeholder="Si lo desea, deje sus comentarios aquí."
+              style="height:200px"></textarea>
+            <input id="submit" type="submit" value="Enviar">
+            <input id="reset" type="reset" value="Borrar todo">
+          </form>
+        </div>
       </div>
+    </div>
   </section>
-  <!--Footer (?)-->
+  <!--Footer-->
   <footer class="main__footer">
     <section id="foot__Bar">
       <a href="MailTo"><img src="img/evilenvelope.png" alt=""></a>
