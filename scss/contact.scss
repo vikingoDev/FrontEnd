@@ -38,6 +38,7 @@ body {
         }
         .grid-container {
             display: grid;
+            margin: 0px 15px 0px 15px;            
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 100%;
             gap: 0px 0px;
@@ -45,13 +46,14 @@ body {
             .contform {
                 border-radius: 5px;
                 background-color:#f2f2f2;
-                padding: 20px;
+                margin: 15px;
+                padding: 10px;
                 #container {  
                     grid-area: contform;
-                    padding: 5px;
+                    padding: 10px;
                     input[type=text], select, textarea {
                     width: 100%;
-                    padding: 12px;
+                    padding: 15px;
                     border: 1px solid #ccc;
                     border-radius: 4px;        
                     margin-top: 20px;
@@ -85,10 +87,11 @@ body {
             }     
             .location_table {
                 grid-area: location_table;
+                margin: 15px;
                 .container {
                     background: linear-gradient(45deg, #49a09d, #5f2c82);	
 	                font-weight: 100;
-                    padding: 0;                    
+                    padding: 0;                                        
                 }                
                     table {
                         width: 100%;

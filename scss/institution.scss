@@ -25,7 +25,11 @@ body {
         width: 80%;
         margin: auto;
         text-align: center;
-        margin-top: 1.5rem;
+        margin-top: 1.5rem;                                  
+        .grid_container {
+            row-gap: 40px;
+            column-gap: 40px;
+        }        
         #inst_tit {            
             font-size: 3em;            
             /*font-weight: bold;*/
@@ -35,20 +39,7 @@ body {
             font-weight: bold;
             font-size: 2em;
             margin-bottom: 4%;
-        }
-        .row_1, .row_2 {
-            display: flex;                          
-            margin-bottom: 8%;        
-            .row_1-img, .row_2-img{                
-                margin: auto;                
-            }
-            .row_1-p, .row_2-p {
-                padding: auto;
-                margin: auto;
-                max-width: 50%;
-                font-size: 1.3rem;
-            }                  
-        }
+        }        
     }
     /*****Footer*****/
     .main__footer {

@@ -1,32 +1,35 @@
 body {    
     background-image: linear-gradient(to right, #accbee 0%, #e7f0fd 100%);
     color: midnightblue;
+    min-height: 100vh;
+    /*****Header*****/
     .main__header {        
-        background-image: linear-gradient(to left, #30cfd0 0%, #330867 100%);
-        .navbar {
-            #menuPrincipal {
-                list-style:none;
-                display:flex;
-                float:right;
-                position:absolute;
-                top: auto;
-                right: 5%;                
-                font-size: 22px;
-                text-align:center;
-                a {
-                    margin: 2px;
+        background-image: linear-gradient(to left, #30cfd0 0%, #330867 100%);        
+            .nav-item {
+                font-size: 22px;                
+            }
+        }
+    }
+    /*****Contenido*****/
+    @media (max-width: 360px) {        
+        .main__sect1 {
+            .carousel {
+                .carousel-caption {                                 
+                    width:320px;                    
+                    left:5%;                                                               
                 }
             }
         }
     }
+
     .main__sect1 { 
-        text-align:center;        
-        .carousel_inner-img {
+        text-align:center;    
+            .carousel_inner-img {
+            object-fit:fill;
             margin-top: 0px;         
             display: block;
             align-items: center;
-            width: 100%;
-            height: 100%;
+            height: 100vh;
             opacity: 0.8;
         }
         .carousel-caption {
@@ -34,83 +37,19 @@ body {
             z-index:10;
             color:#fff;
             text-shadow: 2px 3px 20px black;
-            text-align:center;                        
+            text-align:center;            
             top:50%;
-            right:65%;
-            bottom:auto;
-            /**-webkit-transform:translate(0, -50%);
-            -ms-transform:translate(0, -50%);**/
-            transform:translate(0, -50%);
-            .main__sect1-t {
-                font-size: 3em;
-                font-style: italic;            
-                font-weight: bold;
-                font-size: 2em;
-                text-align:center;
-            }           
-        }        
+            left:15%;
+            bottom:initial;
+            -webkit-transform:translate(0, -50%);
+            -ms-transform:translate(0, -50%);
+            transform:translate(0, -50%);                     
+        }          
     }
-    .main__sect2 {
-        margin-top: 4rem;         
-        text-align: center;
-        .main__sect2--t {
-            font-size: 3em;
-        }
-        .card{                        
-            width: 18rem;
-            margin-bottom: 2rem;
-            margin-right: auto;
-            margin-left: auto;
-            &:hover {
-                transform: scale(1.10);
-                transition: 1s;
-            }
-        }
-    }
-    .main__sect3 {
-        text-align: center;
-        margin-top: 4rem;
-        margin-left: 10rem;
-        margin-right: 10rem;
-        background-color: none;
-        .main__sect3--tit {
-            font-size: 3em;
-        }
-        p {
-            word-spacing: 4px;
-            font-size: 1.7em;
-        }
-    }
-    
-    #valuesect {
-        text-align: center;
-        .value--t {
-            font-size: 3em;
-        }
-        .value--p {
-            word-spacing: 4px;
-            font-size: 1.7em;
-        }
-        .value {
-            display: flex;
-            .card {                
-                margin: auto;
-                padding: 25px;
-                background: whitesmoke;
-                border: none;
-                border-radius: 15px;
-                width: auto;
-                height: auto;
-                img {
-                    width: 100%;
-                    height: auto;
-                }
-            }
-        }
-    }
+    /*****Footer*****/
     .main__footer {
         background-image: repeating-linear-gradient(to left, #30cfd0 0%, #330867 100%);
-        position:relative;
+        position:absolute;
         width: 100%;
         height: 60px;
         #foot__Bar {
@@ -127,9 +66,7 @@ body {
                 margin-right:30px;
             }
         }
-
     }
-}
 
 /***footer*
 .col_white_amrc { color:#FFF;}

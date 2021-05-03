@@ -14,22 +14,32 @@
 
 <body>
   <!--Header-->
-  <header class="main__header">
-    <nav class="navbar navbar-expand-sm navbar-light">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark main__header">
       <div class="container-fluid">
         <div id="logContainer"><img src="img\logomain.jpg" alt="logoPrincipal" id="logoPrincipal"></div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div id="menuPrincipal">
-            <a href="index.html" class="btn btn-primary" aria-current="page">Home</a>
-            <a href="institucion.html" class="btn btn-primary">Quienes somos</a>
-            <a href="services.html" class="btn btn-primary">Nuestros Servicios</a>
-            <a href="value.html" class="btn btn-primary">Valor Agregado</a>
-            <a href="contact.html" class="btn btn-primary active">Contacto</a>
-          </div>
+        <div class="collapse navbar-collapse collapse" id="navbarScroll">
+          <ul class="navbar-nav ms-auto my-3 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a href="index.html" class="btn btn-dark nav-link" aria-current="page">Home</a>
+            </li>
+            <li class="nav-item"></li>
+            <a href="institucion.html" class="btn btn-dark nav-link">Quienes somos</a>
+            </li>
+            <li class="nav-item"></li>
+            <a href="services.html" class="btn btn-dark nav-link">Nuestros Servicios</a>
+            </li>
+            <li class="nav-item"></li>
+            <a href="value.html" class="btn btn-dark nav-link">Valor Agregado</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="btn btn-dark nav-link active">Contacto</a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
@@ -46,37 +56,183 @@
       <!--Locaciones-->
       <div class="location_table">
         <div class="container">
-        <table>
-          <thead>
-            <tr>
-              <th>País</th>
-              <th>Provincia / Localidad</th>				
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Cell 1</td>
-              <td>Cell 2</td>				
-            </tr>
-            <tr>
-              <td>Cell 1</td>
-              <td>Cell 2</td>				
-            </tr>
-            <tr>
-              <td>Cell 1</td>
-              <td>Cell 2</td>
-              
-            </tr>
-            <tr>
-              <td>Cell 1</td>
-              <td>Cell 2</td>				
-            </tr>
-            <tr>
-              <td>Cell 1</td>
-              <td>Cell 2</td>				
-            </tr>
-          </tbody>
-        </table>
+          <table>
+            <!--Table head-->
+            <thead>
+              <tr>
+                <th>País</th>
+                <th>Provincia / Localidad</th>
+              </tr>
+            </thead>
+            <!--Table body-->
+            <tbody>
+              <!--Row 1-->
+              <tr>
+                <td>
+                  Argentina
+                </td>
+                <td>
+                  <!-- Button trigger modal -->
+                  <div>                    
+                    <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Launch demo modal
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d851.2542368000862!2d-64.18341987074832!3d-31.413659154303375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a29d368dc22d%3A0xc6534dee58d4fab0!2sSan%20Mart%C3%ADn%20200%2C%20X5022%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1620010085012!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <!--Row 2-->
+              <tr>
+                <td>
+                  <!--Blank cell-->
+                </td>
+                <td>
+                  <!-- Button trigger modal -->
+                  <div>                    
+                    <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Launch demo modal
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d851.2542368000862!2d-64.18341987074832!3d-31.413659154303375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a29d368dc22d%3A0xc6534dee58d4fab0!2sSan%20Mart%C3%ADn%20200%2C%20X5022%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1620010085012!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <!--Row 3-->
+              <tr>
+                <td>
+                  <!--Blank cell-->                 
+                </td>
+                <td>
+                 <!-- Button trigger modal -->
+                 <div>                    
+                  <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Launch demo modal
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d851.2542368000862!2d-64.18341987074832!3d-31.413659154303375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a29d368dc22d%3A0xc6534dee58d4fab0!2sSan%20Mart%C3%ADn%20200%2C%20X5022%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1620010085012!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>                            
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </td>
+              </tr>
+              <!--Row 4-->
+              <tr>
+                <td>
+                  Uruguay
+                </td>
+                <td>
+                  <!-- Button trigger modal -->
+                  <div>                    
+                  <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Launch demo modal
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d851.2542368000862!2d-64.18341987074832!3d-31.413659154303375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a29d368dc22d%3A0xc6534dee58d4fab0!2sSan%20Mart%C3%ADn%20200%2C%20X5022%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1620010085012!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>                            
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                </td>
+              </tr>
+              <!--Row 5-->
+              <tr>
+                <td>
+                  Chile
+                </td>
+                <td>
+                  <!-- Button trigger modal -->
+                  <div>                    
+                    <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Launch demo modal
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d851.2542368000862!2d-64.18341987074832!3d-31.413659154303375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a29d368dc22d%3A0xc6534dee58d4fab0!2sSan%20Mart%C3%ADn%20200%2C%20X5022%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1620010085012!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
       <!--Formulario de contacto-->
@@ -88,8 +244,8 @@
               <div class="col-md-6 col-sm-12 col-xs-3">
                 <label for="name">Datos personales</label>
                 <input type="text" class="form-control" placeholder="Ingrese nombre y apellido">
-              </div>            
-            <!--Teléfono-->            
+              </div>
+              <!--Teléfono-->
               <div class="col-md-6 col-sm-12 col-xs-3">
                 <label for="name">Teléfono</label>
                 <input type="text" class="form-control" placeholder="Ingrese un número de contacto">
@@ -97,30 +253,30 @@
             </div>
             <div class="row">
               <div class="col-md-6 col-sm-12 col-xs-3">
-            <!--Email-->
-              <label for="email">E-mail</label>
-              <input type="text" class="form-control" placeholder="Ingrese su e-mail">
+                <!--Email-->
+                <label for="email">E-mail</label>
+                <input type="text" class="form-control" placeholder="Ingrese su e-mail">
               </div>
               <div class="col-md-6 col-sm-12 col-xs-3">
-            <!--Medio de contacto-->
-              <label for="channels">Medio de contacto</label>
-              <select>
-                <option>Seleccione</option>
-                <option>E-mail</option>
-                <option>Wapp</option>
-                <option>Zoom/Meet/Otros</option>
-                <option>No deseo que me contacten</option>
-              </select>
+                <!--Medio de contacto-->
+                <label for="channels">Medio de contacto</label>
+                <select>
+                  <option>Seleccione</option>
+                  <option>E-mail</option>
+                  <option>Wapp</option>
+                  <option>Zoom/Meet/Otros</option>
+                  <option>No deseo que me contacten</option>
+                </select>
               </div>
             </div>
             <!--País-->
-            <label for="country">País</label>            
+            <label for="country">País</label>
             <select>
               <option>Seleccione</option>
               <option>Argentina</option>
               <option>Uruguay</option>
               <option>Chile</option>
-            </select>                        
+            </select>
             <!--Subject-->
             <label for="subject">Comentarios</label>
             <textarea id="subject" name="subject" placeholder="Si lo desea, deje sus comentarios aquí."
