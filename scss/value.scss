@@ -93,18 +93,14 @@ body {
                 -webkit-transition: 1s;
                 -webkit-transform-style: preserve-3d;
                 -ms-transition: 1s;
-                -moz-transition: 1s;
-                -moz-transform: perspective(1000px);
-                -moz-transform-style: preserve-3d;
+                -moz-transition: 1s;                
                 -ms-transform-style: preserve-3d;
                 transition: 1s;
                 transform-style: preserve-3d;
                 position: relative;
             }
             .frontside {
-                position: relative;
-                -webkit-transform: rotateY(0deg);
-                -ms-transform: rotateY(0deg);
+                position: relative;                                
                 z-index: 2;
                 margin-bottom: 30px;
             }
