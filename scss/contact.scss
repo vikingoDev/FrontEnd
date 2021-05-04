@@ -21,16 +21,24 @@ body {
         }
     }    
     /*****Contenido*****/
-    @media screen and (min-width:1px) and (max-width:479px) {        
-      .cont_cont {
-          #cont_tit {
-              font-size: 2rem !important;                
-          }
-          #cont_tit-p {
-              font-size: 1rem !important;
-              margin: 3px !important;
-          }
+    @media screen and (max-width:767px) {
+      .grid_container {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "location_table"
+        "contact_form";
       }
+    }      
+    @media screen and (max-width:479px) {        
+      .cont_cont {
+        #cont_tit {
+          font-size: 2rem !important;                
+        }
+        #cont_tit-p {
+          font-size: 1rem !important;
+          margin: 3px !important;
+        }
+      }         
     }
     .cont_cont {                     
         margin-top: 1.5rem;
@@ -55,15 +63,15 @@ body {
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 100%;
             gap: 0px 0px;
-            grid-template-areas: "location_table contform";
+            grid-template-areas: "location_table contact_form";
             /*****Formulario*****/
-            .contform {
+            .contact_form {
                 border-radius: 5px;
                 background: linear-gradient(45deg, #49a09d, #5f2c82);
                 margin: 15px;
                 padding: 10px;
                 #container {  
-                    grid-area: contform;
+                    grid-area: contact_form;
                     padding: 10px;
                     input[type=text], select, textarea {
                     width: 100%;
