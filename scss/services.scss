@@ -21,6 +21,16 @@ body {
         }
     }
     /*****Contenido*****/
+    @media screen and (min-width:1px) and (max-width:479px) {        
+        #serv_cont {
+            #serv_tit {
+                font-size: 2rem !important;
+            }
+            #serv_tit-p {
+                font-size: 1rem !important;
+            }
+        }
+    }
     #serv_cont {
         text-align: center;
         margin-top: 1.5rem; 

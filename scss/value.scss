@@ -21,7 +21,18 @@ body {
         }
     }
     /*****Contenido*****/
-    #valuesect {        
+    @media screen and (min-width:1px) and (max-width:479px) {        
+        #value_cont {
+            #value_tit {
+                font-size: 2rem !important;                
+            }
+            #value_tit-p {
+                font-size: 1rem !important;
+                margin: 3px !important;
+            }
+        }
+    }
+    #value_cont {        
         text-align: center;
         margin-top: 1.5rem;
         #value_tit {            
