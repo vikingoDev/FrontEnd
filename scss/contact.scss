@@ -1,34 +1,22 @@
 body {
-  background-image: repeating-linear-gradient(
-    to right,
-    #accbee 0%,
-    #e7f0fd 100%
-  );
+  background-image: repeating-linear-gradient(to right, #accbee 0%, #e7f0fd 100%);
   color: midnightblue;
-  margin-bottom:60px;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 60px;
   /*****Header*****/
-  .main__header {
-    background-image: repeating-linear-gradient(
-      to left,
-      #30cfd0 0%,
-      #330867 100%
-    );
-    .navbar {
-      #menuPrincipal {
-        list-style: none;
-        display: flex;
-        float: right;
-        position: absolute;
-        top: auto;
-        right: 5%;
-        font-size: 22px;
-        text-align: center;
-        a {
-          margin: 2px;
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: inherit;               
+    .main__header {        
+      background-image: linear-gradient(to left, #30cfd0 0%, #330867 100%);        
+        .nav-item {
+          font-size: 22px;                
         }
-      }
     }
-  }
+}
   /*****Contenido*****/
   @media screen and (max-width: 767px) {
     .grid_container {
@@ -64,16 +52,7 @@ body {
       }
     }
     /*****Grilla*****/
-    .grid-container {
-      /*display: grid;
-          margin: 0px 15px 0px 15px;
-          grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
-          width: 100%;
-          
-          grid-template-columns: 1fr 1fr;
-          grid-template-rows: 100%;
-          gap: 0px 0px;
-          grid-template-areas: "location_table contact_form";*/
+    .grid-container {      
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -193,7 +172,7 @@ body {
       rgb(96, 154, 192),
       white
     );
-    position: fixed;
+    position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;

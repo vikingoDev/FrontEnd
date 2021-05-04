@@ -1,22 +1,19 @@
 body {
     background-image: repeating-linear-gradient(to right, #accbee 0%, #e7f0fd 100%);
     color: midnightblue;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 60px;
     /*****Header*****/
-    .main__header {        
-        background-image: repeating-linear-gradient(to left, #30cfd0 0%, #330867 100%);
-        .navbar {
-            #menuPrincipal {
-                list-style:none;
-                display:flex;
-                float:right;
-                position:absolute;
-                top: auto;
-                right: 5%;                
-                font-size: 22px;
-                text-align:center;
-                a {
-                    margin: 2px;
-                }
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        background: inherit;               
+        .main__header {        
+          background-image: linear-gradient(to left, #30cfd0 0%, #330867 100%);        
+            .nav-item {
+              font-size: 22px;                
             }
         }
     }
@@ -161,7 +158,7 @@ body {
           rgb(96, 154, 192),
           white
         );
-        position: fixed;
+        position: absolute;
         left: 0;
         bottom: 0;
         width: 100%;
