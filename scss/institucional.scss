@@ -74,12 +74,7 @@ body {
   }
   /*****Footer*****/
   .main__footer {
-    background-image: repeating-linear-gradient(
-      to right,
-      rgb(12, 3, 95),
-      rgb(96, 154, 192),
-      white
-    );
+    background-image: linear-gradient(to left, #30cfd0 0%, #330867 100%);
     position: absolute;
     left: 0;
     bottom: 0;
