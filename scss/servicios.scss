@@ -17,7 +17,7 @@ body {
     .main__header {
       background-image: linear-gradient(to left, #30cfd0 0%, #330867 100%);
       .nav-item {
-        font-size: 22px;
+        font-size: 1.375rem;
       }
     }
   }
@@ -33,16 +33,19 @@ body {
     }
   }
   #serv_cont {
-    text-align: center;
-    margin-top: 1.5rem;
-    #serv_tit {
-      font-size: 3rem;
-    }
-    #serv_tit-p {
-      font-style: italic;
-      font-weight: bold;
-      font-size: 2em;
-      margin-bottom: 4%;
+    /*****Títulos*****/
+    #serv_txt {
+      text-align: center;
+      margin-top: 1.5rem;
+      #serv_tit {
+        font-size: 2.9rem;
+      }
+      #serv_tit-p {
+        font-style: italic;
+        font-weight: bold;
+        font-size: 2rem;
+        margin-bottom: 4%;
+      }
     }
     .card-img-top {
       width: 100%;

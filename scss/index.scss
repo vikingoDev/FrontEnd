@@ -13,7 +13,7 @@ body {
     .main__header {
         background-image: linear-gradient(to left, #30cfd0 0%, #330867 100%);
             .nav-item {
-                font-size: 22px;
+                font-size: 1.375rem;
             }
         }
     }
@@ -22,7 +22,7 @@ body {
 @media (max-width: 360px) {
   .navbar {
     .nav-item {
-      margin: 10px !important;
+      margin: 0.625 !important;
     }
   }
   .main__sect1 {
@@ -39,7 +39,7 @@ body {
   text-align: center;
   .carousel_inner-img {
     object-fit: fill;
-    margin-top: 0px;
+    margin-top: 0rem;
     display: block;
     align-items: center;
     height: 100vh;
