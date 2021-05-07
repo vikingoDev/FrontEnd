@@ -50,6 +50,7 @@ body {
     }
     .value {
       display: flex;
+      margin: 0 1.25rem 0 1.25rem !important;
       /**CARD FLIP**/
       .btn-primary:hover,
       .btn-primary:focus {
@@ -143,7 +144,7 @@ body {
         min-height: 312px;
       }
       .backside .card a {
-        font-size: 18px;
+        font-size: 1.125rem;
         color: #007b5e !important;
       }
       .frontside .card .card-title,
