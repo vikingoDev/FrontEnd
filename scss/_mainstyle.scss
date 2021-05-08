@@ -50,10 +50,12 @@ header {
     margin-right: 20px;
     margin-top: 15px;
     float: right;
-    img {
-      height: 30px;
-      width: 30px;
+    a {
       margin-right: 30px;
+      img {
+        height: 30px;
+        width: 30px;        
+      }
     }
   }
 }
