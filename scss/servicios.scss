@@ -11,31 +11,15 @@
     }
   }
 }
-#serv_cont {
-  /*****Títulos*****/
-  #serv_txt {
-    text-align: center;
-    margin-top: 1.5rem;
-    #serv_tit {
-      font-size: 2.9rem;
-    }
-    #serv_tit-p {
-      font-style: italic;
-      font-weight: bold;
-      font-size: 2rem;
-      margin-bottom: 4%;
-    }
-  }
-  .card-img-top {
-    width: 100%;
-    height: 15vw;
-    object-fit: cover;
-  }
-  .card {
-    margin-bottom: 40px;
-  }
-  .modal-body p {
-    font-style: italic;
-    padding: 15px 15px 15px 15px;
-  }
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+.card {
+  margin-bottom: 40px;
+}
+.modal-body p {
+  font-style: italic;
+  padding: 15px 15px 15px 15px;
 }

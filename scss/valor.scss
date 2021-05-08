@@ -12,21 +12,7 @@
     }
   }
 }
-#value_cont {
-  /*****Títulos*****/
-  #value_txt {
-    text-align: center;
-    margin-top: 1.5rem;
-    #value_tit {
-      font-size: 2.9rem;
-    }
-    #value_tit-p {
-      font-style: italic;
-      font-weight: bold;
-      font-size: 2rem;
-      margin-bottom: 4%;
-    }
-  }
+#cont {
   .value {
     display: flex;
     margin: 0 1.25rem 0 1.25rem !important;
