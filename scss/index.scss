@@ -16,8 +16,10 @@
     }
   }
 }
+/*****CAROUSEL*****/
 .main__sect1 {
   text-align: center;
+  /*****IMAGEN CAROUSEL*****/
   .carousel_inner-img {
     object-fit: fill;
     margin-top: 0rem;
@@ -26,6 +28,7 @@
     height: 100vh;
     opacity: 0.8;
   }
+  /*****TEXTO CAROUSEL*****/
   .carousel-caption {
     width: 350px;
     z-index: 10;
